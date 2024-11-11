@@ -1,0 +1,17 @@
+.credit {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  width: 90%;
+  max-width: 1000px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgb(188, 188, 188);
+  border-radius: 5px;
+}
+
+.credit div {
+  margin-bottom: 15px;
+}

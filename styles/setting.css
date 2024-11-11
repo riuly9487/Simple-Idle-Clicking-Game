@@ -1,0 +1,49 @@
+.setting {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  max-width: 1000px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgb(188, 188, 188);
+  border-radius: 5px;
+}
+
+.setting-grid {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 70%;
+  
+}
+
+.setting-item {
+  width: 90%;
+  height: 100px;
+  align-content: center;
+}
+
+.setting-delete,
+.setting-delete button {
+  font-size: 24px;
+}
+
+.setting-delete button {
+  font-weight: bold;
+  color: rgb(72, 0, 0);
+  background-color: red;
+  border: 2px solid darkred;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: transform 0.25s;
+}
+
+.setting-delete button:hover {
+  transform: scale(0.9);
+}
+
+.setting-delete button:active {
+  transform: scale(0.8);
+}
